@@ -3,8 +3,8 @@ init:
 	npm install
 	npx zenn init
 
-.PHONY: new
-new: init
+.PHONY: new-article
+new-article: init
 	npx zenn new:article
 
 .PHONY: preview
